@@ -1,0 +1,26 @@
+{
+  "appName": "App name",
+  "common": {
+    "action": {
+      "save": "Save",
+      "edit": "Edit",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "add": "Add",
+      "update": "Update",
+      "choose": "Choose",
+      "ok": "OK",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "message": {
+      "error": "Error",
+      "pageNotFound": "404 Not Found",
+      "anErrorOccurred": "An error occurred"
+    },
+    "empty": "-"
+  },
+  "home": {
+    "title": "Home"
+  }
+}

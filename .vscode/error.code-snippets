@@ -1,0 +1,17 @@
+{
+  "Handle Error": {
+    "scope": "javascript",
+    "prefix": "terr",
+    "body": [
+      "try {",
+      "  this.$$nuxt.$$loading.start()",
+      "",
+      "} catch (err) {",
+      "  this.handleError(err)",
+      "} finally {",
+      "  this.$$nuxt.$$loading.finish()",
+      "}"
+    ],
+    "description": "Handle Error"
+  }
+}
