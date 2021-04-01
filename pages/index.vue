@@ -2,6 +2,11 @@
   <div class="container">
     <div>
       <h1 class="title">{{ title }}</h1>
+      <p id="requiredHTTPS" class="hidden">{{ warningHttps }}</p>
+      <!-- Install button, hidden by default -->
+      <div id="installContainer" class="hidden">
+        <button id="buttonInstall" type="button">{{ install }}</button>
+      </div>
     </div>
   </div>
 </template>
@@ -10,7 +15,10 @@
   export default {
     data() {
       return {
-        title: "Nuxtjs",
+        title: "InstallableR",
+        warningHttps:
+          "STOP! This page must be served over HTTPS. Please reload this page via HTTPS",
+        install: "Install",
       };
     },
   };
