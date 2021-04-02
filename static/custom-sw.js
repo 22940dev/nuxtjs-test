@@ -1,1 +1,1 @@
-console.log('Custom service worker!')
+console.log("Custom service worker!");

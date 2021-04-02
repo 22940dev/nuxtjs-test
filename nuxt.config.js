@@ -16,18 +16,7 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" },
     ],
-    link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Lato:400,700&amp;display=swap",
-      },
-      {
-        rel: "stylesheet",
-        href: "https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css",
-      },
-    ],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
 
   // Progressive Web App: https://pwa.nuxtjs.org/
@@ -106,6 +95,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
+    // Simple usage
+    "@nuxtjs/localtunnel",
   ],
 
   // Disable create eslintcache
